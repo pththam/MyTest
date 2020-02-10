@@ -9,7 +9,7 @@
 - Run in IDE (if using Eclipse): Right click on your class > click 'Run As' > choose 'Java Application'
 
 - Run on the command line:
-  javac [ClassName].java
-  java [ClassName].java
+  - javac [ClassName].java
+  - java [ClassName]
 
 
