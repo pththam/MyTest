@@ -1,0 +1,51 @@
+Question 1: refer to Car.java
+100
+100
+200
+200
+200
+200
+200
+200
+200
+200
+200
+200
+100
+100
+100
+100
+100
+100
+100
+100
+
+Question 2: refer to MyThread.java -> Each execution will produce another output.
+200
+100
+100
+200
+100
+200
+100
+200
+100
+200
+100
+200
+100
+200
+100
+200
+100
+100
+200
+200
+
+Question 3: 
+Why is the order of outputs in 2 and 1 different?
+-> Because in question 2, we use thread that help in running the processes (run() method of two cars) in parallel
+How can we make sure that the question 2 will produce the order just like question 1
+-> To make sure the output of question 2 is the same as question 1, we need to insert join() method before starting thread 2 (to wait until thread 1 completes its execution). Please refer to JoinMethod.java
+
+Question 4: Refer to Synchronization.java
